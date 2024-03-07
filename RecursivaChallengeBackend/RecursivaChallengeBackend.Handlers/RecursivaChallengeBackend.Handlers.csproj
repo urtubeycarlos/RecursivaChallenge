@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RecursivaChallengeBackend.Extensions\RecursivaChallengeBackend.Extensions.csproj" />
+    <ProjectReference Include="..\RecursivaChallengeBackend.Models\RecursivaChallengeBackend.Models.csproj" />
+    <ProjectReference Include="..\RecursivaChallengeBackend.Services\RecursivaChallengeBackend.Services.csproj" />
+  </ItemGroup>
+
+</Project>
